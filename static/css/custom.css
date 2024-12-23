@@ -1,0 +1,6 @@
+:root {
+  --accent: #2c78bf; /* Blue accent color */
+  --background: #1d1f21; /* Dark background */
+  --color: #fff; /* Main text color */
+  --border-color: rgba(255, 255, 255, .1);
+}
