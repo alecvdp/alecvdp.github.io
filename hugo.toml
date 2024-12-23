@@ -8,9 +8,8 @@ theme = 'terminal'
     images = "/images/xmasdoggo.png"
     fullWidthTheme = false
     centerTheme = true
-
-
-
+    showLanguageSelector = false
+    defaultTheme = "dark"
 
 
 [languages]
