@@ -4,15 +4,12 @@ title = 'czander'
 theme = 'poison'
 
 [params]
-    brand = "czander"    # Required: what's displayed in the header
-    brand_image = ""       # Optional: path to logo displayed in header
-    description = "it's me"
-    dark_mode = true      # Optional: if true, dark mode is enabled by default
+    brand = "czander"    # This shows in the header
+    brand_image = ""       # Optional: leave empty for text-only header
+    description = "it's me, it's my site"
+    dark_mode = true
 
-    # Required: must match folder name of the theme
-    theme_config = "poison"
-
-    # Optional social links
+    # Social links - delete any you don't want
     github_url = "https://github.com/alecvdp"
     # twitter_url = ""
     # linkedin_url = ""
@@ -24,14 +21,10 @@ theme = 'poison'
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = false},
     ]
 
-# The following params are ONLY needed if you want to enable Plausible analytics:
-# [params.plausible]
-#    enable = false
-#    website_domain = ""
-#    script_source = ""
+[languages]
+    [languages.en]
+        languageName = "English"
 
-# Required: separate language configuration
-[languages.en]
-    languageName = "English"
-    [languages.en.params]
-        Author = "czander"  # Required by Poison theme
+        [languages.en.params.author]
+            name = "czander"
+            url = "https://github.com/alecvdp"    # Optional: your homepage/blog/about page
