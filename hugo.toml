@@ -4,18 +4,34 @@ title = 'czander'
 theme = 'poison'
 
 [params]
-  text_color = ""
-  author = ""
-  favicon = ""
-  site_logo = ""
-  description = "Your site description"
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/
-  background_color_class = "bg-black"
-  recent_posts_number = 3
+    brand = "czander"    # Required: what's displayed in the header
+    brand_image = ""       # Optional: path to logo displayed in header
+    description = "it's me"
+    dark_mode = true      # Optional: if true, dark mode is enabled by default
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+    # Required: must match folder name of the theme
+    theme_config = "poison"
+
+    # Optional social links
+    github_url = "https://github.com/alecvdp"
+    # twitter_url = ""
+    # linkedin_url = ""
+    # email_url = ""
+
+    # Menu items
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = false},
+    ]
+
+# The following params are ONLY needed if you want to enable Plausible analytics:
+# [params.plausible]
+#    enable = false
+#    website_domain = ""
+#    script_source = ""
+
+# Required: separate language configuration
+[languages.en]
+    languageName = "English"
+    [languages.en.params]
+        Author = "czander"  # Required by Poison theme
