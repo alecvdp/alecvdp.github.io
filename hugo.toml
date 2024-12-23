@@ -12,10 +12,11 @@ theme = 'poison'
     # Social links - delete any you don't want
     github_url = "https://github.com/alecvdp"
     # twitter_url = ""
-    linkedin_url = "www.linkedin.com/in/alec-van-der-poel-a3bb9051"
+    linkedin_url = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051/"
     email_url = "alecvdpoel@pm.me"
 
-    front_page_content = ["posts"]
+    # if only wanting to show blog posts
+    #front_page_content = ["posts"]
 
 [languages]
     [languages.en]
