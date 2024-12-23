@@ -1,1 +1,21 @@
+baseURL = 'https://alecvdp.github.io/'
+languageCode = 'en-us'
+title = 'czander'
 theme = 'poison'
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "Your site description"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
