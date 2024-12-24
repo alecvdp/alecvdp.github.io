@@ -16,13 +16,20 @@ theme = "PaperMod"
     url = "https://github.com/alecvdp"
 [[params.socialIcons]]
     name = "LinkedIn"
-    url = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051" 
+    url = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051"
+[[params.socialIcons]]
+    name = "link"
+    url = "https://bsky.app/profile/czander.net"
+    title = "Bluesky"
 [[params.socialIcons]]
     name = "lastfm"
     url = "https://last.fm/user/czander_" 
 [[params.socialIcons]]
     name = "letterboxd"
     url = "https://letterboxd.com/alecvdpoel"
+[[params.socialIcons]]
+    name = "Email"
+    url = "mailto:alecvdpoel@pm.me"
 
     # We can add more social icons like:
     # LinkedIn, Email, Twitter, etc.
