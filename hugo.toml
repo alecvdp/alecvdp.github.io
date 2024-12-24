@@ -1,35 +1,58 @@
-baseURL = "https://alecvdp.github.io/"  # Your actual URL
-title = "Alec van der Poel"
-theme = "PaperMod"
+baseURL = "https://alecvdp.github.io/"
+title = "Alec"
+theme = "blowfish"
+
+# Blowfish specific configurations
+defaultContentLanguage = "en"
+enableRobotsTXT = true
 
 [params]
-    defaultTheme = "dark"
+  colorScheme = "dark"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = false
+  
+  [params.homepage]
+    layout = "profile"
+    showRecent = false
 
-[params.profileMode]
-    enabled = true
-    title = "czander"     # The main headline
+  [params.profile]
     subtitle = "so it goes."
-    imageUrl = "/images/hehe.jpeg"  # Your profile picture
+    imageUrl = "/images/hehe.jpeg"
 
-[[params.socialIcons]]
+[menus]
+  [[menus.social]]
     name = "GitHub"
     url = "https://github.com/alecvdp"
-[[params.socialIcons]]
+    weight = 1
+  [[menus.social]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051"
-[[params.socialIcons]]
-    name = "link"
+    weight = 2
+  [[menus.social]]
+    name = "Bluesky"
     url = "https://bsky.app/profile/czander.net"
-    title = "Bluesky"
-[[params.socialIcons]]
-    name = "lastfm"
+    weight = 3
+  [[menus.social]]
+    name = "Last.fm"
     url = "https://last.fm/user/czander_" 
-[[params.socialIcons]]
-    name = "letterboxd"
+    weight = 4
+  [[menus.social]]
+    name = "Letterboxd"
     url = "https://letterboxd.com/alecvdpoel"
-[[params.socialIcons]]
+    weight = 5
+  [[menus.social]]
     name = "Email"
     url = "mailto:alecvdpoel@pm.me"
+    weight = 6
 
-    # We can add more social icons like:
-    # LinkedIn, Email, Twitter, etc.
+
+
+
+
+
+
+
+
+
+
+
