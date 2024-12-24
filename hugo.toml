@@ -1,5 +1,5 @@
 baseURL = "https://alecvdp.github.io/"
-title = "Alec"
+title = "Alec van der Poel"
 theme = "blowfish"
 
 # Blowfish specific configurations
@@ -24,26 +24,38 @@ enableRobotsTXT = true
     name = "GitHub"
     url = "https://github.com/alecvdp"
     weight = 1
+    [menus.social.params]
+      icon = "github"
   [[menus.social]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051"
     weight = 2
+    [menus.social.params]
+      icon = "linkedin"
   [[menus.social]]
     name = "Bluesky"
     url = "https://bsky.app/profile/czander.net"
     weight = 3
+    [menus.social.params]
+      icon = "link"
   [[menus.social]]
     name = "Last.fm"
-    url = "https://last.fm/user/czander_" 
+    url = "https://last.fm/user/czander_"
     weight = 4
+    [menus.social.params]
+      icon = "lastfm"
   [[menus.social]]
     name = "Letterboxd"
     url = "https://letterboxd.com/alecvdpoel"
     weight = 5
+    [menus.social.params]
+      icon = "film"
   [[menus.social]]
     name = "Email"
     url = "mailto:alecvdpoel@pm.me"
     weight = 6
+    [menus.social.params]
+      icon = "mail"
 
 
 

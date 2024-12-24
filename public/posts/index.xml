@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Alec van der Poel</title>
+    <title>Posts on Alec</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Alec van der Poel</description>
+    <description>Recent content in Posts on Alec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2024 </copyright>
     <lastBuildDate>Mon, 23 Dec 2024 08:16:11 -0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 23 Dec 2024 08:16:11 -0800</pubDate>
       
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;
-&lt;p&gt;welcome. I don&amp;rsquo;t really know what I&amp;rsquo;m doing but here I am.&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;what&amp;rsquo;s next?&lt;/h2&gt;
-&lt;p&gt;maybe some cringe blogs. or maybe nothing if my interest just completely disappears. who knows!&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;
-&lt;p&gt;welcome. I don&amp;rsquo;t really know what I&amp;rsquo;m doing but here I am.&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;what&amp;rsquo;s next?&lt;/h2&gt;
-&lt;p&gt;maybe some cringe blogs. or maybe nothing if my interest just completely disappears. who knows!&lt;/p&gt;
-</content>
+      <description>Hello World! # welcome. I don&amp;rsquo;t really know what I&amp;rsquo;m doing but here I am.
+what&amp;rsquo;s next? # maybe some cringe blogs. or maybe nothing if my interest just completely disappears. who knows!</description>
+      
     </item>
     
   </channel>
