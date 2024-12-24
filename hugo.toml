@@ -1,8 +1,7 @@
 baseURL = "https://alecvdp.github.io/"
-title = "Alec van der Poel"
+title = "czander"
 theme = "blowfish"
 
-# Blowfish specific configurations
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 
@@ -10,60 +9,23 @@ enableRobotsTXT = true
   colorScheme = "dark"
   defaultAppearance = "dark"
   autoSwitchAppearance = false
-  
-  [params.homepage]
-    layout = "profile"
-    showRecent = false
 
-  [params.profile]
-    subtitle = "so it goes."
-    imageUrl = "/images/hehe.jpeg"
+[params.homepage]
+  layout = "profile"
+  showRecent = false
+  showSocialLinks = true
 
-[menus]
-  [[menus.social]]
-    name = "GitHub"
-    url = "https://github.com/alecvdp"
-    weight = 1
-    [menus.social.params]
-      icon = "github"
-  [[menus.social]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051"
-    weight = 2
-    [menus.social.params]
-      icon = "linkedin"
-  [[menus.social]]
-    name = "Bluesky"
-    url = "https://bsky.app/profile/czander.net"
-    weight = 3
-    [menus.social.params]
-      icon = "link"
-  [[menus.social]]
-    name = "Last.fm"
-    url = "https://last.fm/user/czander_"
-    weight = 4
-    [menus.social.params]
-      icon = "lastfm"
-  [[menus.social]]
-    name = "Letterboxd"
-    url = "https://letterboxd.com/alecvdpoel"
-    weight = 5
-    [menus.social.params]
-      icon = "film"
-  [[menus.social]]
-    name = "Email"
-    url = "mailto:alecvdpoel@pm.me"
-    weight = 6
-    [menus.social.params]
-      icon = "mail"
-
-
-
-
-
-
-
-
+[params.author]
+  name = "Alec van der Poel"
+  headline = "so it goes."
+  # Fix the image path format
+  image = "/hehe.jpeg"
+  links = [
+    { github = "https://github.com/alecvdp" },
+    { linkedin = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051" },
+    { lastfm = "https://last.fm/user/czander_" },
+    { email = "mailto:alecvdpoel@pm.me" }
+  ]
 
 
 
