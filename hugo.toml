@@ -9,7 +9,7 @@ theme = "PaperMod"
     enabled = true
     title = "czander"     # The main headline
     subtitle = "so it goes."
-    imageUrl = "/images/alec-uniform.jpg"  # Your profile picture
+    imageUrl = "/images/hehe.jpeg"  # Your profile picture
 
 [[params.socialIcons]]
     name = "GitHub"
