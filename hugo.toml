@@ -1,5 +1,5 @@
 baseURL = "https://alecvdp.github.io/"  # Your actual URL
-title = "Your Name"
+title = "Alec van der Poel"
 theme = "PaperMod"
 
 [params]
