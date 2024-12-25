@@ -27,6 +27,22 @@ enableRobotsTXT = true
     { email = "mailto:alecvdpoel@pm.me" }
   ]
 
+[params.footer]
+  showCopyright = true    
+  showThemeAttribution = false   
 
+[menu]
+  [[menu.main]]
+    name = "About"
+    pageRef = "about"
+    weight = 10
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 20
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "projects"
+    weight = 30
 
 
