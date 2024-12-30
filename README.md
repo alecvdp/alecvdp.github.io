@@ -1,1 +1,1 @@
-it's my page, why you need a readme?
+This is a personal page for Alec van der Poel providing links and information. 
