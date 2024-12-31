@@ -1,1 +1,1 @@
-This is a personal page for Alec van der Poel providing links and information. 
+This is a personal page for Alec van der Poel providing links, information, and blog posts. 

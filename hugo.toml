@@ -12,24 +12,27 @@ enableRobotsTXT = true
 
 [params.homepage]
   layout = "profile"
-  showRecent = false
+  showRecent = true
   showSocialLinks = true
 
 [params.author]
   name = "Alec van der Poel"
   headline = "so it goes."
-  # Fix the image path format
   image = "/hehe.jpeg"
   links = [
     { github = "https://github.com/alecvdp" },
     { linkedin = "https://www.linkedin.com/in/alec-van-der-poel-a3bb9051" },
-    { lastfm = "https://last.fm/user/czander_" },
     { email = "mailto:alecvdpoel@pm.me" }
   ]
+
+[params.article]
+  showTableOfContents = true
+  showTaxonomies = true
 
 [params.footer]
   showCopyright = true    
   showThemeAttribution = false   
+
 
 [menu]
   [[menu.main]]

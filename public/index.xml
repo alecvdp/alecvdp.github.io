@@ -7,16 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Alec van der Poel</copyright>
-    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 23 Dec 2024 08:16:11 -0800</pubDate>
+      <title>Alec&#39;s 5-5-5 Deal: 5 Movie, Album, and Book Recommendations from 2024</title>
+      <link>http://localhost:1313/blog/2024-favorites/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Hello World! # welcome. I don&amp;rsquo;t really know what I&amp;rsquo;m doing but here I am.
-what&amp;rsquo;s next? # maybe some cringe blogs. or maybe nothing if my interest just completely disappears. who knows!</description>
+      <guid>http://localhost:1313/blog/2024-favorites/</guid>
+      <description>5 movies, 5 albums, 5 books that you get an unasked opinion about, for free! What a deal. With this list and website I guess I am essentially combining two things I&amp;rsquo;ve been doing a lot of this year, especially quite recently: tech-tinkering and journaling. So I guess here you have a more focused, public version of a journal entry of mine, that required a lot of GitHub commits in order to appear before your face.</description>
       
     </item>
     
