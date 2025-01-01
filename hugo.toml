@@ -9,9 +9,7 @@ enableRobotsTXT = true
   colorScheme = "dark"
   defaultAppearance = "dark"
   autoSwitchAppearance = false
-  customHeadHTML = '''
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bed89325f40041f58ea508c2f474343c"}'></script>
-  '''
+  
 
 [params.homepage]
   layout = "profile"
