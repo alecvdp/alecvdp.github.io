@@ -6,8 +6,19 @@
     <description>Recent content on czander</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Alec van der Poel</copyright>
-    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Alec van der Poel</copyright>
+    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An unstructured blog post</title>
+      <link>http://localhost:1313/blog/new-year-new-post/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/new-year-new-post/</guid>
+      <description>Well the first blog post on here was with a specific goal, a specific format, one that is quite commonplace around the end of year on social media. Now here&amp;rsquo;s me going off the rails, free form, just typing directly on a .md file in VS Code! Look at me go!
+I&amp;rsquo;ve been using some software called Obsidian a lot lately, which is a note-taking application that is essentially a neat and handy way to organize pages of notes (mainly - though you can do a pretty insane amount of other things), and for me lately notes have been in the form of daily journaling, taking notes on what I am reading, and essentially making a personal Wikipedia of everything I know and would like to know more about (the whole &amp;ldquo;second brain&amp;rdquo; aspect of it that everyone talks about).</description>
+      
+    </item>
     
     <item>
       <title>Alec&#39;s 5-5-5 Deal: 5 Movie, Album, and Book Recommendations from 2024</title>
